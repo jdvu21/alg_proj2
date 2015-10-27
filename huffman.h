@@ -27,7 +27,7 @@ public:
 		//destroySubTree(root);
 	}
 
-	void reader();
+	void reader(string);
 	void huffman();
 	void postOrder();
 	void encode();

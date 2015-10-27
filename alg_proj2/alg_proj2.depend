@@ -2,13 +2,16 @@
 1385320478 source:c:\users\jeff\desktop\huffman_coding\alg_proj2\main.cpp
 	<iostream>
 
-1445909228 source:c:\users\jeff\desktop\huffman_coding\huffman.cpp
+1445928872 source:c:\users\jeff\desktop\huffman_coding\huffman.cpp
+	"huffman.h"
 	<iostream>
+	<fstream>
+	<string>
 
-1445914063 source:c:\users\jeff\desktop\huffman_coding\main.cpp
+1445929108 source:c:\users\jeff\desktop\huffman_coding\main.cpp
 	"huffman.h"
 	<iostream>
 
-1445914108 c:\users\jeff\desktop\huffman_coding\huffman.h
+1445928883 c:\users\jeff\desktop\huffman_coding\huffman.h
 	<iostream>
 
