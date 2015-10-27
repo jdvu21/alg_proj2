@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1385320478 source:c:\users\jeff\desktop\huffman_coding\alg_proj2\main.cpp
+	<iostream>
+
+1445909228 source:c:\users\jeff\desktop\huffman_coding\huffman.cpp
+	<iostream>
+
+1445914063 source:c:\users\jeff\desktop\huffman_coding\main.cpp
+	"huffman.h"
+	<iostream>
+
+1445914108 c:\users\jeff\desktop\huffman_coding\huffman.h
+	<iostream>
+
