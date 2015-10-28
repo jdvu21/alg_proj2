@@ -2,8 +2,8 @@
 1385320478 source:c:\users\jeff\desktop\huffman_coding\alg_proj2\main.cpp
 	<iostream>
 
-1445928872 source:c:\users\jeff\desktop\huffman_coding\huffman.cpp
-	"huffman.h"
+1446075266 source:c:\users\jeff\desktop\huffman_coding\huffman.cpp
+	"huffnode.h"
 	<iostream>
 	<fstream>
 	<string>
@@ -14,4 +14,8 @@
 
 1445928883 c:\users\jeff\desktop\huffman_coding\huffman.h
 	<iostream>
+
+1446075243 c:\users\jeff\desktop\huffman_coding\huffnode.h
+	<iostream>
+	<string>
 
