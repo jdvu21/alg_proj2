@@ -22,7 +22,7 @@ public:
 
 // ===== FUNCTIONS ======
 
-	int getFrequency() {
+	int getFreq() {
 		return freq;
 	}
 

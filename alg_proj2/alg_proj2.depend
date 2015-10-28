@@ -8,14 +8,14 @@
 	<fstream>
 	<string>
 
-1445929108 source:c:\users\jeff\desktop\huffman_coding\main.cpp
-	"huffman.h"
+1446075303 source:c:\users\jeff\desktop\huffman_coding\main.cpp
+	"huffnode.h"
 	<iostream>
 
 1445928883 c:\users\jeff\desktop\huffman_coding\huffman.h
 	<iostream>
 
-1446075243 c:\users\jeff\desktop\huffman_coding\huffnode.h
+1446077379 c:\users\jeff\desktop\huffman_coding\huffnode.h
 	<iostream>
 	<string>
 
