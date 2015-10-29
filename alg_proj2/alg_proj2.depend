@@ -19,3 +19,9 @@
 	<iostream>
 	<string>
 
+1446078840 source:c:\users\jeff\desktop\huffman_coding\huffnode.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"huffnode.h"
+
