@@ -23,7 +23,6 @@ private:
 	void encode();
 
 public:
-    void displayHuffCodes();
 	HuffCode(string);
 	~HuffCode();
 	string getData() {
@@ -33,5 +32,8 @@ public:
 		return encoded;
 	};
 	string decodeData(string);
+
+	void displayPostOrder();
+	void displayHuffCodes();
 };
 #endif

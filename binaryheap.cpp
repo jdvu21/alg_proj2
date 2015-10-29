@@ -66,7 +66,7 @@ int BinaryHeap::numChildren(int index) {
 
 void BinaryHeap::percDown(int current) {
 	int children = 0;
-	if (children = numChildren(current)) {
+	if (children == numChildren(current)) {
 		HuffNode* temp;
 		int left = 2 * current + 1;
 		int right = 2* current + 2;
@@ -97,9 +97,6 @@ void BinaryHeap::percDown(int current) {
 					}
 				}
 				break;
-				default:
-					std::cout << "error determining smaller child" << endl;
-					break;
 		}
 	}
 	return;
@@ -125,22 +122,38 @@ bool BinaryHeap::isEmpty() {
 
 void BinaryHeap::postOrderTraversal() {
 	if (isEmpty()) {
+		cout << "heap is empty" << endl;
 		return;
 	}
+	cout << endl;
 	postOrder(0);
+
 }
 
+void BinaryHeap::inOrder(int current){
+	if(((2*current+1) < capacity) && (storage[2*current+1] != NULL)) inOrder(2*current+1);
+	cout << *storage[current] << " ";
+	if(((2*current+2) < capacity) && (storage[2*current+2] != NULL)) inOrder(2*current+2);
+	}
+
+// void BinaryHeap::postOrder(int current) {
+// 	if(((2*current+1) < capacity) && (storage[2*current+1] != NULL)) {
+//             postOrder(2*current+1);
+// 	}
+// 	if(((2*current+2) < capacity) && (storage[2*current+2] != NULL)) {
+//             postOrder(2*current+2);
+// 	}
+// 	cout << *storage[current] << " ";
+// }
+
 void BinaryHeap::postOrder(int current) {
-	// left
-	if(((2 * current + 1) < capacity) && (storage[2*current+1] != NULL)) {
-		postOrder(2 * current + 1);
+	if(((2*current+1) < capacity) && (storage[2*current+1] != NULL)) {
+            postOrder(2*current+1);
 	}
-	// right
-	if(((2 * current + 2) < capacity) && (storage[2*current+2] != NULL)) {
-		postOrder(2 * current + 2);
+	if(((2*current+2) < capacity) && (storage[2*current+2] != NULL)) {
+            postOrder(2*current+2);
 	}
-	// current
-	std::cout << *storage[current] << " ";
+	cout << *storage[current];
 }
 
 void BinaryHeap::linearDisplay() {

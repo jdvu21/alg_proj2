@@ -8,12 +8,13 @@
 	<fstream>
 	<string>
 
-1446093165 source:c:\users\jeff\desktop\huffman_coding\main.cpp
+1446165710 source:c:\users\jeff\desktop\huffman_coding\main.cpp
 	"huffcode.h"
 	<iostream>
 	<fstream>
 	<streambuf>
 	<string>
+	<sys/stat.h>
 
 1445928883 c:\users\jeff\desktop\huffman_coding\huffman.h
 	<iostream>
@@ -28,20 +29,20 @@
 	<string>
 	"huffnode.h"
 
-1446089377 source:c:\users\jeff\desktop\huffman_coding\binaryheap.cpp
+1446165801 source:c:\users\jeff\desktop\huffman_coding\binaryheap.cpp
 	"binaryheap.h"
 	<iostream>
 
-1446089200 c:\users\jeff\desktop\huffman_coding\binaryheap.h
+1446095783 c:\users\jeff\desktop\huffman_coding\binaryheap.h
 	"huffnode.h"
 
-1446093345 source:c:\users\jeff\desktop\huffman_coding\huffcode.cpp
+1446095898 source:c:\users\jeff\desktop\huffman_coding\huffcode.cpp
 	"huffcode.h"
 	<iostream>
 	<utility>
 	<map>
 
-1446093187 c:\users\jeff\desktop\huffman_coding\huffcode.h
+1446094320 c:\users\jeff\desktop\huffman_coding\huffcode.h
 	<string>
 	<map>
 	"binaryheap.h"

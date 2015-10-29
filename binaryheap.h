@@ -13,8 +13,6 @@ private:
 	void percDown(int);
 	int numChildren(int);
 
-	void postOrder(int);
-
 public:
 	BinaryHeap(int);
 	~BinaryHeap();
@@ -33,5 +31,7 @@ public:
 	void postOrderTraversal();
 	void linearDisplay();
 	void emptyHeap();
+	void postOrder(int);
+	void inOrder(int);
 };
 #endif

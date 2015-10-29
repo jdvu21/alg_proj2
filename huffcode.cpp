@@ -77,3 +77,8 @@ void HuffCode::displayHuffCodes() {
 		std::cout << it->first << "(" << it->second.size() << ")" << it->second << endl;
 	}
 }
+
+void HuffCode::displayPostOrder() {
+	heap->postOrderTraversal();
+	cout << endl;
+}
